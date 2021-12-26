@@ -45,7 +45,7 @@ def solve(times):
     enhance, image = parse_input()
     outside = '.'
     for _ in range(times):
-        image = add_more_lines(image, 3, outside)
+        image = add_more_lines(image, 2, outside)
         new_image = []
         for i, row in enumerate(image):
             temp = []
